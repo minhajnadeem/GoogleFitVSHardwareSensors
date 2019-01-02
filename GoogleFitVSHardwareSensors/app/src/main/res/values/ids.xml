@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="viewflipper"/>
+    <item type="id" name="edit_message"/>
+    <item type="id" name="button_start"/>
+    <item type="id" name="button_exit1"/>
+    <item type="id" name="update"/>
+    <item type="id" name="button_sop"/>
+    <item type="id" name="finalupdate"/>
+    <item type="id" name="button_exit3"/>
+    <item type="id" name="menu_settings"/>
+</resources>
