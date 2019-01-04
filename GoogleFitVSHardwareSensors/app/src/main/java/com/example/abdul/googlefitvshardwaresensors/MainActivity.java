@@ -264,7 +264,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
                 if (error == null) {
                     tvFeedbackBy.setText(getString(R.string.string_feedback_by, doctorName));
                     tvFeedback.setText(feedback);
-                }else {
+                } else {
                     Toast.makeText(MainActivity.this, Constants.ERROR, Toast.LENGTH_SHORT).show();
                 }
             }
@@ -570,7 +570,8 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             float[] accData = intent.getFloatArrayExtra(Constants.EXTRA_ACC_DATA);
             float[] gyrData = intent.getFloatArrayExtra(Constants.EXTRA_GYR_DATA);
             float[] megData = intent.getFloatArrayExtra(Constants.EXTRA_MEG_DATA);
-            exeSendData(accData, gyrData, megData);
+            if (accData != null && gyrData != null && megData != null)
+                exeSendData(accData, gyrData, megData);
         }
     }
 

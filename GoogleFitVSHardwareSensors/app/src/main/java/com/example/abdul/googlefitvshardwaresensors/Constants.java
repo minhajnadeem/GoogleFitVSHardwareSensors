@@ -84,7 +84,7 @@ public final class Constants {
     }
 
     //server urls
-    public static final String LOCAL_SERVER = "http://192.168.10.15:8000/client/";
+    public static final String LOCAL_SERVER = "http://192.168.0.22:8000/client/";
     public static final String SERVER_URL = LOCAL_SERVER;
 
     //APIs endpoint
